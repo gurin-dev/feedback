@@ -1,0 +1,177 @@
+.feedback__list {
+  display: none;
+  position: absolute;
+  right: 20px;
+  bottom: 90px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.feedback__list ul.feedback__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item {
+  padding: 5px 10px;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a .feedback__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a .feedback__icon img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(334deg) brightness(126%) contrast(93%);
+          filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(334deg) brightness(126%) contrast(93%);
+  width: 20px;
+  height: 20px;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a div.telegram {
+  background-color: #1296c9;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a div.messenger {
+  background-color: #007ff7;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a div.email {
+  background-color: chocolate;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a div.call {
+  background-color: #009500;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a div.sms {
+  background-color: #d2aa27;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a .feedback__text {
+  margin-left: 20px;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a .feedback__text span.item__title {
+  color: #008675;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item a .feedback__text span.item__link {
+  color: #242424;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.feedback__list ul.feedback__menu li.feedback__item:hover {
+  background-color: #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.feedback__list ul.feedback__menu li.mobileShow {
+  display: none;
+}
+
+.feedback__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #833ab4;
+  background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #fd1d1d), to(#fcb045));
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(131, 131, 131, 0.6);
+          box-shadow: 5px 5px 20px 0px rgba(131, 131, 131, 0.6);
+  cursor: pointer;
+}
+
+.feedback__button .feedback__magick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.feedback__button .feedback__magick img {
+  width: 22px;
+  height: 22px;
+  -webkit-filter: invert(34%) sepia(73%) saturate(1055%) hue-rotate(137deg) brightness(94%) contrast(101%);
+          filter: invert(34%) sepia(73%) saturate(1055%) hue-rotate(137deg) brightness(94%) contrast(101%);
+}
+
+.show__feedback {
+  display: block;
+  right: 20px;
+  bottom: 90px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: showList;
+          animation-name: showList;
+}
+
+@-webkit-keyframes showList {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showList {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
